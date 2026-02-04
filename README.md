@@ -9,8 +9,8 @@ Ce dépôt regroupe l'ensemble des scripts Bash développés lors de mon atelier
 * **Technique** : Création d'archives compressées `.tar.gz` avec horodatage automatique.
 * **Objectif** : Garantir la sécurité des données avant toute intervention.
 
-![](images/backup1.png)
-![](images/backup2.png)
+![](screenshots/backup1.png)
+![](screenshots/backup2.png)
 
 
 
@@ -19,10 +19,10 @@ Ce dépôt regroupe l'ensemble des scripts Bash développés lors de mon atelier
 * **Alertes** : Système de couleurs (Vert/Jaune/Rouge) pour le CPU, la RAM et le Disque.
 * **Audit** : Génération de rapports de diagnostic détaillés dans `/var/log/`.
 
-![](images/monitoring1.png)
-![](images/monitoring2.png)
-![](images/monitoring3.png)
-![](images/monitoring4.png)
+![](screenshots/monitoring1.png)
+![](screenshots/monitoring2.png)
+![](screenshots/monitoring3.png)
+![](screenshots/monitoring4.png)
 
 
 ### 3. 👥 Gestionnaire d'utilisateurs (`create-users.sh`)
@@ -30,10 +30,10 @@ Ce dépôt regroupe l'ensemble des scripts Bash développés lors de mon atelier
 * **Sécurité** : Génération de mots de passe aléatoires et assignation automatique aux groupes.
 * **Tracabilité** : Journalisation complète des opérations de création.
 
-![](images/users1.png)
-![](images/users2.png)
-![](images/users3.png)
-![](images/users4.png)
+![](screenshots/users1.png)
+![](screenshots/users2.png)
+![](screenshots/users3.png)
+![](screenshots/users4.png)
 
 
 ### 4. 🧹 Nettoyeur Système (`cleanup.sh`)
@@ -41,9 +41,9 @@ Ce dépôt regroupe l'ensemble des scripts Bash développés lors de mon atelier
 * **Sécurité** : Mode "Dry-Run" (simulation) par défaut pour éviter les suppressions accidentelles.
 * **Cibles** : Cache APT, fichiers temporaires et anciens journaux système.
 
-![](images/cleanup1.png)
-![](images/cleanup2.png)
-![](images/cleanup3.png)
+![](screenshots/cleanup1.png)
+![](screenshots/cleanup2.png)
+![](screenshots/cleanup3.png)
 
 
 ### 5. 🔍 Vérificateur de Services (`check-services.sh`)
@@ -51,9 +51,9 @@ Ce dépôt regroupe l'ensemble des scripts Bash développés lors de mon atelier
 * **Mode --watch** : Monitoring dynamique avec rafraîchissement toutes les 30 secondes.
 * **Réparation** : Option de redémarrage automatique en cas de panne détectée.
 
-![](images/check-services1.png)
-![](images/check-services2.png)
-![](images/check-services3.png)
+![](screenshots/check-services1.png)
+![](screenshots/check-services2.png)
+![](screenshots/check-services3.png)
 
 
 ### 6. 🎛️ Menu Centralisé (`sysadmin-tools.sh`)
@@ -61,8 +61,8 @@ Ce dépôt regroupe l'ensemble des scripts Bash développés lors de mon atelier
 * **Gestion** : Vérification de la présence des scripts avant lancement et aide intégrée.
 * **Journalisation** : Audit de l'utilisation de l'outil dans `sysadmin_usage.log`.
 
-![](images/sysadmin-tools1.png)
-![](images/sysadmin-tools2.png)
+![](screenshots/sysadmin-tools1.png)
+![](screenshots/sysadmin-tools2.png)
 
 
 ---
